@@ -1,0 +1,174 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .wapper {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .nav {
+        padding-left: 165px;
+        padding-right: 165px;
+        height: 72px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .leftnavi {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 28px;
+        width: 567px;
+      }
+
+      .logo {
+        height: 28px;
+        width: 105px;
+      }
+
+      .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 20px;
+        width: 430px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+        font-size: 14px;
+        font-weight:500;
+        line-height: 20px;
+      }
+
+      .more {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 20px;
+        width: 57px;
+        gap: 1px;
+      }
+
+      .rightnavi {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        width: 282px;
+      }
+
+      .googleplay {
+        height: 40px;
+        width: 135px;
+        background-color: black;
+
+      }
+
+      .appstore {
+        height: 40px;
+        width: 135px;
+        background-color: black;
+      }
+
+      .content {
+        padding-left: 165px;
+        padding-right: 165px;
+        height: 790px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 96px;
+      }
+
+      .text {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 72px;
+        font-weight:bolder;
+        line-height: 98px;
+        text-align: center;
+      }
+
+      .button {
+        padding: 12px 32px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       border-radius: 6px;
+       color: white;
+        background-color: blueviolet;
+        font-size: 16px;
+        font-weight:500;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 32px;
+      }
+
+      .mobile {
+        position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%);
+margin-top: 196px;
+filter: drop-shadow(0.4rem 0.4rem 0.45rem rgba(0, 0, 30, 0.5));
+      }
+
+
+      .circle {
+        margin-top: 350px;
+        position: absolute;
+
+top: 50%;
+left: 50%;
+transform: translateX(-50%);
+z-index: -1;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="wapper">
+      <div class="nav">
+        <div class="leftnavi">
+            <img class="logo" src="/image/logo.png"></img>
+            <div class="menu">
+                <div>About</div>
+                <div>Products</div>
+                <div>Pricing</div>
+                <div>Blog</div>
+                <div>Jobs</div>
+               <div class="more">
+                <div>More</div>
+                <img src="/image/chevron-down.svg"></img>
+               </div>
+            </div>
+        </div>
+        <div class="rightnavi">
+            <img class="googleplay" src="/image/Google Play Badge.png"></img>
+            <img class="appstore" src="/image/App Store Badge.png"></img>
+        </div>
+      </div>
+      <div class="content">
+        <div class="header">
+            <div class="text">Track your product sales from anywhere, anytime.</div>
+            <div class="button">Start selling</div>
+        </div>
+        <img class="mobile" src="/image/iPhone X.png">
+        <img class="circle" src="/image/Ellipse.png"></img></img>
+      </div>
+    </div>
+  </body>
+</html>
