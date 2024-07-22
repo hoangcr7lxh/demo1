@@ -1,23 +1,27 @@
-<ht lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hello</title>
+    <title>Document</title>
+    <style>
+      #block1 {
+        background-color: red;
+      }
+      #block2 {
+        background-color: yellow;
+      }
+      .block {
+        width: 300px;
+        height: 100px;
+      }
+      div {
+        width: 300px;
+        height: 100px; 
+      }
+    </style>
   </head>
-  <>
-   <form action="">
-    <label for="">Email:</label>
-    <input type="text">
-    <br />
-    <label for="">Password:</label>
-    <input type="text">
-   </form>
-   <>
-    <tr>
-        <td> <label for="">Email:</label></td>
-        <td> <input type="text"></td>
-    </tr>
-    <tr>
-        <td> <label for="">Password:</label></td>
-        <td> <input type="Password"></td>
-    </tr>
+  <body>
+    <div id="block1" class="block">Block 1</div>
+    <div id="block1" style="background-color: black;">Block 2</div>
+  </body>
+</html>
